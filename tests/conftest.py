@@ -10,6 +10,9 @@ import time
 @pytest.fixture
 def browser():
     # Setup Phase
+    # Initialize the ChromeDriver instance
+    # driver = webdriver.Chrome()
+
     # Initialize the EdgeDriver instance
     driver = webdriver.Edge()
 
