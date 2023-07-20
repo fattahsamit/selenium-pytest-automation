@@ -11,10 +11,13 @@ import time
 def browser():
     # Setup Phase
     # Initialize the ChromeDriver instance
-    driver = webdriver.Chrome()
+    # driver = webdriver.Chrome()
+
+    # Initialize the geckodriver instance
+    # driver = webdriver.Firefox()
 
     # Initialize the EdgeDriver instance
-    # driver = webdriver.Edge()
+    driver = webdriver.Edge()
 
     # Make its calls wait up to 10 seconds for elements to appear
     driver.implicitly_wait(10)
